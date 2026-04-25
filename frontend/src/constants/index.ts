@@ -91,7 +91,7 @@ export const MOVIES = [
     },
     {
         id: 10,
-        title: "@* YEARS LATER",
+        title: "25 YEARS LATER",
         poster: movie10,
         rating: 4.3,
         tags: ["Drama", "Sci-Fi"]
@@ -134,3 +134,9 @@ export const EVENTS = [
         image: event5
     },
 ]
+
+export const LANGUAGES = ["English", "Hindi", "Tamil", "Telugu", "Kannada", "Malayalam"];
+
+export const GENRES = ["Action", "Comedy", "Drama", "Horror", "Romance", "Sci-Fi", "Thriller"];
+
+export const FORMATES = ["2D", "3D", "IMAX", "4DX", "MX4D", "DOLBY CINEMA", "GOLD CLASS", "SILVER CLASS", "PLATINUM CLASS", "ICE"];

@@ -1,7 +1,8 @@
 import React from "react";
-import Slider, {settings} from "../../utils/slider.tsx";
+import Slider, { settings } from "../../utils/slider.tsx";
 import { FaArrowRight } from "react-icons/fa";
 import { MOVIES } from "../../constants";
+import { Link } from "react-router-dom";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -17,10 +18,12 @@ const Movies: React.FC = () => {
                     Recommended Movies
                 </h2>
 
-                <button className="text-sm text-red-500 flex items-center hover:text-red-600">
-                    View All
-                    <FaArrowRight size={12} className="ml-2" />
-                </button>
+                <Link to="/movies">
+                    <button className="text-sm text-red-500 flex items-center cursor-pointer hover:text-red-600">
+                        View All
+                        <FaArrowRight size={12} className="ml-2" />
+                    </button>
+                </Link>
             </div>
 
             {/* Slider */}
