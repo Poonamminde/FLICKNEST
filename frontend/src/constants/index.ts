@@ -233,3 +233,36 @@ export const theatres = [
 ]
 
 export const tabs = ["Profile", "Your Orders"];
+
+export const ordersData = [
+    {
+        id: 1,
+        poster: movie10,
+        title: "25 YEARS LATER",
+        format: "IMAX",
+        datetime: "27-11-2025 11:00AM",
+        cinema: "cinema",
+        quantity: 2,
+        seats: 2,
+        ticket: 345.9,
+        fee:75,
+        total: 800,
+        bookingTime: "26-11-2025 11:00AM",
+        paymentMethod: "Online"
+    },
+    {
+        id: 1,
+        poster: movie12,
+        title: "KESARI CHAPTER 2",
+        format: "IMAX",
+        datetime: "30-11-2025 11:00AM",
+        cinema: "cinema",
+        quantity: 2,
+        seats: 2,
+        ticket: 345.9,
+        fee:75,
+        total: 800,
+        bookingTime: "26-11-2025 11:00AM",
+        paymentMethod: "Online"
+    }
+]
