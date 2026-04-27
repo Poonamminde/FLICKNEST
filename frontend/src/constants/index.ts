@@ -231,3 +231,5 @@ export const theatres = [
     ]
     }
 ]
+
+export const tabs = ["Profile", "Your Orders"];

@@ -4,6 +4,7 @@ import Footer from "./components/layout/Footer";
 import Home from "./Pages/Home";
 import Movies from "./Pages/Movies";
 import MovieDetails from "./Pages/MovieDetails";
+import Profile from "./Pages/Profile";
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
       <main className='flex-grow'>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/profile/:id" element={<h1>Profile Page</h1>} />
+          <Route path="/profile/:id" element={<Profile />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="/movies/:id" element={<MovieDetails />} />
         </Routes>
