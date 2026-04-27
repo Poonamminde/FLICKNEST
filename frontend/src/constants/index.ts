@@ -22,6 +22,8 @@ import event3 from "../../assets/events/e3.avif";
 import event4 from "../../assets/events/e4.avif";
 import event5 from "../../assets/events/e5.avif";
 
+import inox from "../../assets/inox.avif";
+
 export const BANNERS = [banner1, banner2, banner3, banner4];
 
 export const MOVIES = [
@@ -140,3 +142,92 @@ export const LANGUAGES = ["English", "Hindi", "Tamil", "Telugu", "Kannada", "Mal
 export const GENRES = ["Action", "Comedy", "Drama", "Horror", "Romance", "Sci-Fi", "Thriller"];
 
 export const FORMATES = ["2D", "3D", "IMAX", "4DX", "MX4D", "DOLBY CINEMA", "GOLD CLASS", "SILVER CLASS", "PLATINUM CLASS", "ICE"];
+
+export const Filters = ["2D", "3D", "IMAX", "4DX", "MX4D", "DOLBY CINEMA", "GOLD CLASS", "SILVER CLASS", "PLATINUM CLASS", "ICE"];
+
+export const theatres = [
+    {
+        id: 1,
+        name: "PVR Cinemas",
+        distance: "2.5 km",
+        cancellation: "Free cancellation",
+        img: inox,
+        timings: [{
+            time: "10:00 AM",
+            label: "RECLINERS"
+        },
+        {
+            time: "1:00 PM",
+            label: "RECLINERS"
+        },
+        {
+            time: "4:00 PM",
+            label: "RECLINERS"
+        },
+        {
+            time: "7:00 PM",
+            label: "RECLINERS"
+        },
+        {
+            time: "10:00 PM",
+            label: "RECLINERS"
+        }
+    ]
+    },
+    {
+        id: 2,
+        name: "INOX",
+        distance: "3.2 km",
+        cancellation: "Free cancellation",
+        img: inox,
+        timings: [{
+            time: "11:00 AM",
+            label: "GOLD CLASS"
+        },
+        {
+            time: "2:00 PM",
+            label: "GOLD CLASS"
+        },
+        {
+            time: "5:00 PM",
+            label: "GOLD CLASS"
+        },
+        {
+            time: "8:00 PM",
+            label: "GOLD CLASS"
+        },
+        {
+            time: "11:00 PM",
+            label: "GOLD CLASS"
+        }
+    ]
+    },
+    {
+        id: 3,
+        name: "Cinepolis",
+        distance: "4.0 km",
+        cancellation: "Free cancellation",
+        img: inox,
+        timings: [{
+            time: "9:00 AM",
+            label: "SILVER CLASS"
+        },
+        {
+            time: "12:00 PM",
+            label: "SILVER CLASS"
+        },
+        {
+            time: "3:00 PM",
+            label: "SILVER CLASS"
+        },
+        {
+            time: "6:00 PM",
+            label: "SILVER CLASS"
+        },
+        {
+            time: "9:00 PM",
+            label: "SILVER CLASS"
+        }
+    ]
+    }
+]

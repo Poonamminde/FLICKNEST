@@ -3,6 +3,7 @@ import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import Home from "./Pages/Home";
 import Movies from "./Pages/Movies";
+import MovieDetails from "./Pages/MovieDetails";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/profile/:id" element={<h1>Profile Page</h1>} />
           <Route path="/movies" element={<Movies />} />
+          <Route path="/movies/:id" element={<MovieDetails />} />
         </Routes>
       </main>
       <Footer />
